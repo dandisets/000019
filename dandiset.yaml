@@ -73,7 +73,8 @@ identifier: DANDI:000019
 keywords:
 - electrocorticography (ECoG)
 - speech production
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000019/versions/draft/assets/
 name: Human ECoG speaking consonant-vowel syllables
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
