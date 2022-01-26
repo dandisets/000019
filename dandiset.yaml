@@ -40,7 +40,7 @@ assetsSummary:
   - ProcessingModule
   - Spectrum
 citation: Bouchard, Kristofer E.; Chang, Edward F. (2022) Human ECoG speaking consonant-vowel
-  syllables (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000019/draft
+  syllables (Version 0.220126.2148) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000019/0.220126.2148
 contributor:
 - identifier: 0000-0002-1974-4603
   includeInCitation: true
@@ -59,6 +59,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2020-04-22T15:04:04.005000+00:00'
+datePublished: '2022-01-26T21:48:51.810284+00:00'
 description: 'The enclosed data is collected using a high-density 256-channel electrocorticography
   (ECoG) array implanted in human patients during treatment for epilepsy. The subjects
   are reading aloud consonant-vowel syllables from a list. The data was collected
@@ -76,8 +77,9 @@ description: 'The enclosed data is collected using a high-density 256-channel el
   silent, which can be used as a baseline. Hand-marked anatomical labels are included
   for electrodes in the relevant brain regions. All dates have been removed for HIPAA
   compliance and replaced with Jan 1, 1900.'
+doi: 10.48324/dandi.000019/0.220126.2148
 ethicsApproval: []
-id: DANDI:000019/draft
+id: DANDI:000019/0.220126.2148
 identifier: DANDI:000019
 keywords:
 - electrocorticography (ECoG)
@@ -85,9 +87,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000019/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000019/0.220126.2148/assets.yaml
 name: Human ECoG speaking consonant-vowel syllables
 protocol: []
+publishedBy:
+  endDate: '2022-01-26T21:48:51.810284+00:00'
+  id: urn:uuid:dd727b38-3944-4b45-9cd0-8998282a835f
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-01-26T21:48:51.810284+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:4b407888-0138-4d06-9a82-d1974fd52802
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: DOI:0.1038/nature11911
   name: Functional organization of human sensorimotor cortex for speech articulation
@@ -98,6 +112,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000019/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000019/0.220126.2148
+version: 0.220126.2148
 wasGeneratedBy: []
