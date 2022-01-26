@@ -2,6 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000019
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+about:
+- identifier: UBERON:0034888
+  name: primary motor cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -46,7 +50,9 @@ contributor:
   - dcite:DataCollector
   - dcite:FormalAnalysis
   schemaKey: Person
-- includeInCitation: true
+- affiliation: []
+  email: Edward.Chang@ucsf.edu
+  includeInCitation: true
   name: Chang, Edward F.
   roleName:
   - dcite:Author
@@ -70,16 +76,28 @@ description: 'The enclosed data is collected using a high-density 256-channel el
   silent, which can be used as a baseline. Hand-marked anatomical labels are included
   for electrodes in the relevant brain regions. All dates have been removed for HIPAA
   compliance and replaced with Jan 1, 1900.'
+ethicsApproval: []
 id: DANDI:000019/draft
 identifier: DANDI:000019
 keywords:
 - electrocorticography (ECoG)
 - speech production
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000019/versions/draft/assets/
 name: Human ECoG speaking consonant-vowel syllables
+protocol: []
+relatedResource:
+- identifier: DOI:0.1038/nature11911
+  name: Functional organization of human sensorimotor cortex for speech articulation
+  relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://doi.org/10.1038/nature11911
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000019/draft
 version: draft
+wasGeneratedBy: []
