@@ -6,6 +6,9 @@ about:
 - identifier: UBERON:0034888
   name: primary motor cortex
   schemaKey: Anatomy
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b247/
+  name: speech production
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -39,7 +42,7 @@ assetsSummary:
   - ElectricalSeries
   - ProcessingModule
   - Spectrum
-citation: Bouchard, Kristofer E.; Chang, Edward F. (2022) Human ECoG speaking consonant-vowel
+citation: Bouchard, Kristofer E.; Chang, Edward F. (2023) Human ECoG speaking consonant-vowel
   syllables (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000019/draft
 contributor:
 - identifier: 0000-0002-1974-4603
@@ -94,7 +97,7 @@ relatedResource:
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://doi.org/10.1038/nature11911
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
