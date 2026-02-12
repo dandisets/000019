@@ -7,6 +7,9 @@ about:
 - identifier: UBERON:0034888
   name: primary motor cortex
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/DOID_2234
+  name: focal epilepsy
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -40,8 +43,9 @@ assetsSummary:
   - ElectricalSeries
   - ProcessingModule
   - Spectrum
-citation: Bouchard, Kristofer E.; Chang, Edward F. (2026) Human ECoG speaking consonant-vowel
-  syllables (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000019/draft
+citation: Bouchard, Kristofer E.; Mesgarani, Nima; Johnson, Keith; Chang, Edward F.
+  (2026) Human ECoG speaking consonant-vowel syllables (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/000019/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/043mz5j54
@@ -54,6 +58,26 @@ contributor:
   - dcite:Author
   - dcite:DataCollector
   - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/043mz5j54
+    name: University of California, San Francisco
+    schemaKey: Affiliation
+  identifier: 0000-0002-2987-759X
+  includeInCitation: true
+  name: Mesgarani, Nima
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01an7q238
+    name: University of California, Berkeley
+    schemaKey: Affiliation
+  identifier: 0000-0002-2569-8121
+  includeInCitation: true
+  name: Johnson, Keith
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/043mz5j54
@@ -97,6 +121,9 @@ identifier: DANDI:000019
 keywords:
 - electrocorticography (ECoG)
 - speech production
+- sensorimotor cortex
+- speech articulation
+- vocal tract
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
